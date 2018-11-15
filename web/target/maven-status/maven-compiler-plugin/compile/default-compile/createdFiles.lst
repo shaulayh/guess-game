@@ -1,0 +1,10 @@
+com\shaulayh\utils\AttributeNames.class
+com\shaulayh\utils\thymeleaf\DecoupledLogicSetup.class
+com\shaulayh\interceptor\RequestInterceptor.class
+com\shaulayh\WebMain.class
+com\shaulayh\utils\ViewNames.class
+com\shaulayh\config\WebConfig.class
+com\shaulayh\service\GameService.class
+com\shaulayh\controller\WebController.class
+com\shaulayh\service\GameServiceImpl.class
+com\shaulayh\utils\Mappings.class

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.shaulayh</groupId>
+    <artifactId>guess-the-number-game</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.4.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <modules>
+        <module>core</module>
+        <module>console</module>
+        <module>web</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <properties>
+        <logback.version>1.2.3</logback.version>
+        <spring.version>5.0.5.RELEASE</spring.version>
+        <java.version>9</java.version>
+        <annotation-api.version>1.3.2</annotation-api.version>
+        <slf4j.version>1.7.12</slf4j.version>
+        <version.spring>4.2.0.RELEASE</version.spring>
+        <version.jdk>1.9</version.jdk>
+        <mockito.version>2.7.13</mockito.version>
+        <bootique.version>0.25</bootique.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <lombok.version>1.18.2</lombok.version>
+    </properties>
+
+
+</project>
